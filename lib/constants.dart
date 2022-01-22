@@ -27,3 +27,36 @@ var themeData = ThemeData(
   backgroundColor: KprimaryColor,
   scaffoldBackgroundColor: KprimaryColor,
 );
+
+// ignore: non_constant_identifier_names
+buildPillButton(
+    {required bool active, required String text, required IconData icon}) {
+  return TextButton.icon(
+    onPressed: () {},
+    icon: Icon(
+      icon,
+      color: Colors.white,
+      size: 27,
+    ),
+    label: Text(
+      text,
+      style: TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
+        fontSize: 17,
+      ),
+    ),
+    style: ButtonStyle(
+      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+          RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(18.0),
+      )),
+      backgroundColor: active
+          ? MaterialStateProperty.all(Colors.blueAccent)
+          : MaterialStateProperty.all(Color(0xFF21283F)),
+      padding: MaterialStateProperty.all<EdgeInsets>(
+        EdgeInsets.only(right: 14.0, left: 14.0),
+      ),
+    ),
+  );
+}
