@@ -22,11 +22,44 @@ class _SleepSoundScreenState extends State<SleepSoundScreen> {
                 const SizedBox(
                   height: 55,
                 ),
-                _buildHeader()
+                _buildHeader(),
+                const SizedBox(
+                  height: 25,
+                ),
+                _buildCardGrid()
               ],
             ),
           ),
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Color(0xFF21283F),
+        selectedItemColor: Colors.blueAccent,
+        unselectedItemColor: Colors.grey,
+        items: const [
+          BottomNavigationBarItem(
+
+            label: "Discover",
+            icon: Icon(
+              Icons.nights_stay,
+              semanticLabel: "Discover",
+            ),
+          ),
+          BottomNavigationBarItem(
+            label: "Composer",
+            icon: Icon(
+              Icons.music_note,
+              semanticLabel: "Discover",
+            ),
+          ),
+          BottomNavigationBarItem(
+            label: "Profile",
+            icon: Icon(
+              Icons.person,
+              semanticLabel: "Discover",
+            ),
+          )
+        ],
       ),
     );
   }
@@ -69,6 +102,75 @@ class _SleepSoundScreenState extends State<SleepSoundScreen> {
             },
           ),
         )
+      ],
+    );
+  }
+
+  _buildCardGrid() {
+    return SizedBox(
+      height: MediaQuery.of(context).size.height,
+      child: GridView.count(
+        childAspectRatio: 2.2 / 3,
+        crossAxisCount: 2,
+        children: List.generate(6, (index) {
+          return _buildCard(pos: index + 1);
+        }),
+      ),
+    );
+  }
+
+  _buildCard({required int pos}) {
+    // ignore: avoid_unnecessary_containers
+    var cardList = <String>[
+      "Guitar Camp",
+      "Chill-Hop",
+      'Lullaby',
+      "Chill-Hop",
+      'Lullaby',
+      "Chill-Hop",
+      'Lullaby',
+    ];
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Stack(
+          children: [
+            Image.asset(
+              "assets/images/image $pos.png",
+              width: 170,
+            ),
+            Positioned(
+              right: 8,
+              top: 8,
+              child: CircleAvatar(
+                backgroundColor: Colors.black54,
+                child: Icon(
+                  Icons.play_arrow,
+                  color: Colors.white,
+                ),
+              ),
+            )
+          ],
+        ),
+        SizedBox(
+          height: 14,
+        ),
+        Text(
+          cardList[pos],
+          style: TextStyle(
+            fontSize: 18,
+          ),
+        ),
+        SizedBox(
+          height: 10,
+        ),
+        Text(
+          "7 Songs • Instrumentals",
+          style: TextStyle(
+            fontSize: 13,
+            color: Color(0xF0EBEBF5),
+          ),
+        ),
       ],
     );
   }
