@@ -1,7 +1,8 @@
 repo_name: TawandaMavondo/Sleep-Sounds-Flutter-Application
 report_id: ddabb0ddfa082f204fe8d8f77efffb64
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-09T20:05:43+00:00'
+timestamp: '2024-01-05T08:26:42+00:00'
 requested_by: TawandaMavondo
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application
   detection_source: Repo Metadata
 - name: Objective-C
   description: The primary programming language you use when writing software for
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application
   detection_source: Repo Metadata
 - name: Swift
   description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application
   detection_source: Repo Metadata
 - name: Android SDK
   description: An SDK that provides you the API libraries and developer tools necessary
@@ -55,6 +60,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/android/app/build.gradle
   detection_source: android/app/build.gradle
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -67,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -78,6 +85,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -88,6 +96,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/android/app/build.gradle
   detection_source: android/app/build.gradle
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -99,6 +108,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/android/app/build.gradle
   detection_source: android/app/build.gradle
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -108,6 +118,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/web/index.html
   detection_source: web/index.html
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -120,7 +131,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/pubspec.lock
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/pubspec.lock
   detection_source: pubspec.yaml
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -133,7 +144,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/pubspec.lock
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/pubspec.lock
   detection_source: pubspec.yaml
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
@@ -145,6 +156,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/TawandaMavondo/Sleep-Sounds-Flutter-Application/blob/master/android/app/build.gradle
   detection_source: android/app/build.gradle
   last_updated_by: Tawanda
   last_updated_on: 2022-01-22 12:50:01.000000000 Z
